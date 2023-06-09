@@ -201,7 +201,7 @@ int main(int argc, char **argv)
         // Ubuntu Xenial Xerus (16.04) uses glibc 2.23
         // Ubuntu Bionic Beaver (18.04) uses glibc 2.27
         // Ubuntu Focal Fossa (20.04) uses glibc 2.31
-        if (strverscmp (glcv, "2.32") >= 0) {
+        if (strverscmp (glcv, "5.32") >= 0) {
             qInfo() << "ERROR: The host system is too new.";
             qInfo() << "Please run on a system with a glibc version no newer than what comes with the oldest";
             qInfo() << "currently supported mainstream distribution (Ubuntu Focal Fossa), which is glibc 2.31.";
